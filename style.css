@@ -12,7 +12,7 @@ display: flex;
 }
 
 .cabecalho {
-  background-color: #9b4f26d7;
+  background-color: #181615d7;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +44,7 @@ main {
 }
 
 footer {
-  background-color: #9b4f26d7;
+  background-color: #332f2cd7;
   padding: 15px 25px;
   color: #fff;
 }
