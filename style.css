@@ -1,4 +1,3 @@
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,11 +8,11 @@ body {
 display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #5a4e4e;
+  background-color: #f5f2f2;
 }
 
 .cabecalho {
-  background-color: #221e1d;
+  background-color: #9b4f26d7;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,6 +29,7 @@ h1 {
   font-size: 24px;
 }
 
+
 .cartao {
 width: 260px;
 height: 200px;
@@ -44,49 +44,37 @@ main {
 }
 
 footer {
-  background-color: #5c514b;
+  background-color: #9b4f26d7;
   padding: 15px 25px;
-  color: #362b2b;
+  color: #fff;
 }
-
 .cartao-interno { 
   position: relative; 
 } 
-
-.cartao-frente, 
+cartao-frente, 
 .cartao-verso { 
   position: absolute; 
   border-radius: 12px; 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
-} 
-
-.cartao-interno { 
+}
+ .cartao-interno { 
   position: relative; 
   transition: transform 0.8s; 
   transform-style: preserve-3d; 
-} 
-
-.cartao-frente, 
+}
+ .cartao-frente, 
 .cartao-verso { 
   position: absolute; 
   border-radius: 12px; 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
   backface-visibility: hidden; 
-} 
-
-.cartao-verso { 
+}
+ .cartao-verso { 
   transform: rotateY(180deg); 
-} 
-
-.cartao:hover .cartao-interno { 
+}
+ .cartao:hover .cartao-interno { 
   transform: rotateY(180deg); 
-} 
-
-<section class="cartoes"> 
-  <article class="cartao">...</article> 
-  <article class="cartao">...</article> 
-</section> 
-
+}
 section { 
   display: flex; 
   gap: 16px; 
